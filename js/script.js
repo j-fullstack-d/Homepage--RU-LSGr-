@@ -1,6 +1,6 @@
 {
   const welcome = () => {
-    console.log("Hello to all developers, who visit here 🔒")
+    console.log("Привет всем разработчикам, которые зашли сюда 🔒")
   };
   
   const toggleBackground = () => {
@@ -11,7 +11,7 @@
     const underlineColor = document.querySelector(".underlineColor");
 
     container.classList.toggle("whiteBackground");
-    nextColorName.innerText = container.classList.contains("whiteBackground") ? "lightseagreen" : "white";
+    nextColorName.innerText = container.classList.contains("whiteBackground") ? "светло зеленый" : "белый";
     imageColor.classList.toggle("lightSeaGreenColorImage");
     nameColor.classList.toggle("lightSkyBlueColorName");
     underlineColor.classList.toggle("lightSeaGreenColorUnderline"); 
