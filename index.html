@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Младший [__Front-End__] разработчик и младший [__Software__] тестировщик</title>
+  <link rel="icon" href="icon/startup.svg">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/tableContainer.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+</head>
+<body class="body lightSeaGreenBackground">
+  <div id="homepage" class="container">
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--EN-SLGr-/"><button class="section__button">EN</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--DE-SLGr-/"><button class="section__button">DE</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--ES-SLGr-/"><button class="section__button">ES</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--PL-SLGr-/"><button class="section__button">PL</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--UA-SLGr-/"><button class="section__button">UA</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--RU-LSG-/"><button class="section__button section__button--lightslategrey">🌗</button></a>
+    <nav class="nav">
+      <ul class="navUL">
+        <a class="navLink" href="#homepage">
+          <li class="navLinkLI">Homepage 📃</li>
+        </a>
+        <a class="navLink" href="#about-author">
+          <li class="navLinkLI">About the author</li>
+        </a>
+        <a class="navLink" href="#my-skills">
+          <li class="navLinkLI">My skills 🚀</li>
+        </a>
+        <a class="navLink" href="#interaction-in-js">
+          <li class="navLinkLI navLinkLI--border-bottom">Interaction in JS</li>
+        </a>
+      </ul>
+    </nav>
+    <main>
+      <header class="header headerCentered">
+        <img class="sectionHeaderIMG imageColor" src="image/Nikita__Rysiev.jpg" alt="Nikita Rysiev">
+        <h1 class="sectionHeaderH1 nameColor">Nikita Rysiev</h1>
+      </header>
+      <section id="about-author" class="section">
+        <h3 class="section__header">Hej! My name a Nick, and I am a beginner Junior Front End Developer and Junior Manual Software Tester.</h3>
+        <p class="section__paragraph">My native language is Russian, but I learn and practice more English language, Polish and some German.</p>
+        <p class="section__paragraph">Now I try to study software testing and some coding of simple web applications.</p>
+        <p class="section__paragraph">I want to know coding and speaking English very well to be useful in the labor market.</p>
+      </section>
+      <section id="my-skills">
+        <div class="tableContainer">
+          <table class="tabelAboutMySkills">
+            <caption class="tableCaptionAboutMySkills">My skills 🚀 (what i learn)</caption>
+            <tr class="tableTR">
+              <th class="tableTH">Frontend</th>
+              <th class="tableTH">Languages</th>
+              <th class="tableTH">Software testing</th>
+              <th class="tableTH">What i would like to know more?</th>
+              <th class="tableTH">Different</th>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">HTML 5+</td>
+              <td class="tableTD">German A1+</td>
+              <td class="tableTD">MySQL</td>
+              <td class="tableTD">SQL</td>
+              <td class="tableTD">Initiative</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">CSS 3+</td>
+              <td class="tableTD">English A2+ &#127468&#127463</td>
+              <td class="tableTD">Postman</td>
+              <td class="tableTD">Java 11+</td>
+              <td class="tableTD">Planning &#128198;</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">JavaScript ESC 6+</td>
+              <td class="tableTD">Polish B2+</td>
+              <td class="tableTD">SoapUI</td>
+              <td class="tableTD">Linux 🐧</td>
+              <td class="tableTD">Teamwork</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">React.js v17.0+ </td>
+              <td class="tableTD">Russian C1+</td>
+              <td class="tableTD">Selenium IDE</td>
+              <td class="tableTD">Selenium WebDriver</td>
+              <td class="tableTD">Communication</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <div class="div__underline--white underlineColor"></div>
+      <section id="interaction-in-js" class="section">
+        <p>
+          <button class="button js-changeBackground">Change background on <span
+              class="js-nextColorName">lightgray</span></button>
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>
+        Сделано с 🔒 Никитой Рысьевым 
+      </p>
+      <p>
+        Все права сохранены  📃
+      </p>
+    </footer>
+  </div>
+  <script defer src="js/script.js"></script>
+</body>
+
+</html>

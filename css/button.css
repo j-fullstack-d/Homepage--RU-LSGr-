@@ -1,0 +1,58 @@
+.section__button {
+  color: hsl(177, 70%, 41%);
+  background-color: hsl(0, 0%, 100%);
+  border-style: none;
+  font-size: 16px;
+  padding: 8px;
+  margin: 5px;
+  cursor: context-menu;
+}
+
+.button {
+  color: hsl(177, 70%, 41%);
+  background-color: hsl(0, 0%, 100%);
+  border-style: none;
+  font-size: 18px;
+  padding: 16px;
+  margin: 5px;
+  cursor: context-menu;
+}
+
+.section__button--lightslategrey.section__button--lightslategrey {
+  background-color: hsl(210, 14%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.section__button--lightslategrey.section__button--lightslategrey:hover {
+  background-color: hsl(210, 14%, 58%);
+}
+.section__button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(177, 70%, 46%);
+}
+
+.section__button:active {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(177, 70%, 51%);
+}
+
+.lightSeaGreenColorImage {
+  border: 6px solid hsl(210, 14%, 63%);
+  box-shadow: 3px 3px 15px hsl(210, 14%, 63%);
+}
+
+.lightSkyBlueColorName {
+  color: hsl(203, 92%, 55%);
+}
+
+.lightSeaGreenColorUnderline {
+  border-bottom: 3px solid hsl(177, 70%, 41%);
+} 
+
+.lightSeaGreenBackground {
+  background-color: hsl(177, 70%, 41%);
+}
+
+.whiteBackground {
+  background-color: hsl(0, 0%, 100%);
+}
